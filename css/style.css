@@ -86,7 +86,7 @@ main {
     margin-bottom: 15px;
 }
 
-.card-body a:hover {
+.card-body a:hover, .card-body a:focus {
     background-color: #0055aa;
 }
 
@@ -104,4 +104,8 @@ footer p {
 
 footer a {
     color: white;
+}
+
+footer a:hover, footer a:focus {
+    text-decoration: underline;
 }
